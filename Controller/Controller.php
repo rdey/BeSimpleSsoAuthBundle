@@ -2,11 +2,12 @@
 
 namespace BeSimple\SsoAuthBundle\Controller;
 
-use Symfony\Component\DependencyInjection\ContainerAware;
-use Symfony\Component\DependencyInjection\ContainerInterface;
+use Symfony\Component\DependencyInjection\ContainerAwareTrait;
 
-class Controller extends ContainerAware
+class Controller
 {
+    use ContainerAwareTrait;
+
     protected function render($view, array $parameters)
     {
         return $this
