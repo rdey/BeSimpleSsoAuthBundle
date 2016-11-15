@@ -1,5 +1,5 @@
 {
-    "name": "besimple/sso-auth-bundle",
+    "name": "redeye/besimple-sso-auth-bundle",
     "type": "symfony-bundle",
     "description": "SSO authentication your Symfony2 project ",
     "keywords": ["CAS", "SSO", "Symfony2", "authentication"],
