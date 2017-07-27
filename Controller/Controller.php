@@ -2,9 +2,10 @@
 
 namespace BeSimple\SsoAuthBundle\Controller;
 
+use Symfony\Component\DependencyInjection\ContainerAwareInterface;
 use Symfony\Component\DependencyInjection\ContainerAwareTrait;
 
-class Controller
+class Controller implements ContainerAwareInterface
 {
     use ContainerAwareTrait;
 
